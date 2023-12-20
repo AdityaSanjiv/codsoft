@@ -20,19 +20,19 @@ int main() {
 
   switch(op) {
 
-    case 'add(+)':
+    case '+':
       cout << num1 << " + " << num2 << " = " << num1 + num2;
       break;
 
-    case 'subtract(-)':
+    case '-':
       cout << num1 << " - " << num2 << " = " << num1 - num2;
       break;
 
-    case 'multiply(*)':
+    case '*':
       cout << num1 << " * " << num2 << " = " << num1 * num2;
       break;
 
-    case 'divide(/)':
+    case '/':
       cout << num1 << " / " << num2 << " = " << num1 / num2;
       break;
 
