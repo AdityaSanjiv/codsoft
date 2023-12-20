@@ -14,7 +14,7 @@ int main() {
   cout << "Enter second number: ";
   cin >> num2;
 
-  cout << "Enter operator: add(+), subtract(-), multiply(*), divide(/): ";
+  cout << "Enter operator: + ,- ,*,/ : ";
   cin >> op;
 
 
