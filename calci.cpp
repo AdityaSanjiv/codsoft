@@ -14,25 +14,25 @@ int main() {
   cout << "Enter second number: ";
   cin >> num2;
 
-  cout << "Enter operator: +, -, *, /: ";
+  cout << "Enter operator: add(+), subtract(-), multiply(*), divide(/): ";
   cin >> op;
 
 
   switch(op) {
 
-    case '+':
+    case 'add(+)':
       cout << num1 << " + " << num2 << " = " << num1 + num2;
       break;
 
-    case '-':
+    case 'subtract(-)':
       cout << num1 << " - " << num2 << " = " << num1 - num2;
       break;
 
-    case '*':
+    case 'multiply(*)':
       cout << num1 << " * " << num2 << " = " << num1 * num2;
       break;
 
-    case '/':
+    case 'divide(/)':
       cout << num1 << " / " << num2 << " = " << num1 / num2;
       break;
 
